@@ -42,7 +42,7 @@ body {
   padding: 50px 0 20px;
   font-size: 2.8rem;
   color: var(--primary-color);
-  font-weight: 800;
+  font-weight: 400;
   letter-spacing: 1px;
   text-shadow: 0 0 20px var(--primary-color);
   animation: fadeInDown 1.2s ease forwards;
@@ -54,7 +54,7 @@ body {
 }
 
 .description {
-  text-align: center;
+  text-align: justify;
   font-size: 1.1rem;
   line-height: 1.8;
   color: var(--text-light);
