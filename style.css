@@ -1,0 +1,136 @@
+
+body {
+  margin: 0;
+  font-family: 'Outfit', sans-serif;
+  background: linear-gradient(135deg, #1c1c1c, #2c2c54);
+  color: #fff;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  padding: 40px 0 20px;
+  font-size: 2.5rem;
+  color: #ffd700;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.description {
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #ddd;
+  margin-bottom: 40px;
+}
+
+.payment-methods {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.method {
+  background: #1f1f1f;
+  padding: 20px;
+  border-radius: 20px;
+  width: 260px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+.method:hover {
+  transform: translateY(-5px);
+}
+
+.method h2 {
+  color: #ffd700;
+  margin-bottom: 10px;
+}
+
+.method p {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.method button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.method button:hover {
+  background-color: #0056b3;
+}
+
+.qris-img {
+  width: 180px;
+  border-radius: 10px;
+}
+
+.note {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: #ff4d4d;
+}
+
+.footer {
+  background-color: #0d0d0d;
+  margin-top: 60px;
+  padding: 40px 20px;
+  border-radius: 20px 20px 0 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 30px;
+  text-align: left;
+}
+
+.column {
+  flex: 1 1 250px;
+}
+
+.column h3 {
+  color: #ffd700;
+  border-bottom: 2px solid #666;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.column p, .column ul li {
+  color: #ccc;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.column ul {
+  padding-left: 20px;
+}
+
+.column ul li {
+  list-style-type: disc;
+}
+
+footer p.copyright {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.85rem;
+  color: #777;
+}
